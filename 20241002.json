@@ -1,0 +1,86 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-10-02",
+            "dia": "Miercoles",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/02/une-pronostica-afectacion-de-1-225-mw-durante-pico-nocturno-de-este-miercoles/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2195,
+            "demanda_max":  3350,
+            "deficit": 1155,
+            "pronostico": {
+                "afectacion": 1225
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2000,
+                "demanda": 2510,
+                "totalidad": false, 
+                "deficit": 538
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 800
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 456,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 6",  
+                        "CTE": "Renté" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 50,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 450
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "recuperación de 100 MW en motores de la generación distribuida, la entrada de tres motores en la Patana de Mariel, con 50 MW, la entrada de la unidad 3 de Energas Varadero, con 30 MW, y el completamiento de la unidad 4 de esta misma central, con 15 MW.", 
+                "razon": "fuera por deficit de combustible",
+                "cantidad_mw": 195
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1214,
+            "hora": "20:30",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}

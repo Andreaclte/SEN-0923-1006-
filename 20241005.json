@@ -1,0 +1,94 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-10-05",
+            "dia": "Sabado",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/05/union-electrica-pronostica-afectacion-de-1140-mw-para-pico-nocturno-de-este-sabado/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2180,
+            "demanda_max":  3250,
+            "deficit": 1070,
+            "pronostico": {
+                "afectacion": 1140
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2050,
+                "demanda": 2550,
+                "totalidad": false, 
+                "deficit": 547
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 850
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 383,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 6",  
+                        "CTE": "Renté" 
+                    },
+                    {
+                        "nombre":"Unidad 8",  
+                        "CTE": "Mariel" 
+                    },
+                    {
+                        "nombre":"Unidad 5",  
+                        "CTE": "Nuevitas" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 44,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 322
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "recuperación de 80 MW en motores de la generación distribuida y la entrada de la unidad 6 de la CTE Renté.", 
+                "razon": "fuera por falta de combustible",
+                "cantidad_mw": 80
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1198,
+            "hora": "19:40",
+            "desc": "no coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}

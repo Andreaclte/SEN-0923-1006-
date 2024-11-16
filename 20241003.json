@@ -1,0 +1,94 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-10-03",
+            "dia": "Jueves",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/03/union-electrica-pronostica-deficit-de-1264-mw-para-el-horario-pico-nocturno/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2146,
+            "demanda_max":  3340,
+            "deficit": 1194,
+            "pronostico": {
+                "afectacion": 1264
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2016,
+                "demanda": 2440,
+                "totalidad": false, 
+                "deficit": 457
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 800
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 368,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 6",  
+                        "CTE": "Renté" 
+                    },
+                    {
+                        "nombre":"Unidad 3",  
+                        "CTE": "Santa Cruz" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Cienfuegos"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 41,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 307
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de la unidad 3 de la CTE Cienfuegos con 130 MW.", 
+                "razon": false,
+                "cantidad_mw": 130
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1249,
+            "hora": "20:40",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}

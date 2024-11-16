@@ -1,0 +1,94 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-10-06",
+            "dia": "Domingo",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/06/une-preven-afectacion-de-1-115-megawatts-durante-el-horario-pico-nocturno-de-este-domingo/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2155,
+            "demanda_max":  3200,
+            "deficit": 1045,
+            "pronostico": {
+                "afectacion": 1115
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1780,
+                "demanda": 2500,
+                "totalidad": false, 
+                "deficit": 750
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 950
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 416,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 1",  
+                        "CTE": "Santa Cruz" 
+                    },
+                    {
+                        "nombre":"Unidad 8",  
+                        "CTE": "Mariel" 
+                    },
+                    {
+                        "nombre":"Unidad 5",  
+                        "CTE": "Nuevitas" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 45,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 485
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "recuperación de 50 MW en motores de la generación distribuida, la entrada de 180 MW en motores en la patana de Melones y Regla, la unidad 1 de la CTE Santa Cruz del Norte con 80 MW y la entrada de la Unidad 5 de la CTE Nuevitas con 65 MW.", 
+                "razon": "fuera por combustible",
+                "cantidad_mw": 375
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1487,
+            "hora": "20:00",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}

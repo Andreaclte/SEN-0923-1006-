@@ -1,0 +1,86 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-09-23",
+            "dia": "Lunes",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/23/une-pronostica-afectacion-de-950-mw-durante-pico-nocturno-de-este-lunes/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2320,
+            "demanda_max": 3200,
+            "deficit": 880,
+            "pronostico": {
+                "afectacion": 950
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2150,
+                "demanda": 2290,
+                "totalidad": false, 
+                "deficit": 211
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 550
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 476,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",  
+                        "CTE": "Renté" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 42,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 316
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de la unidad 8 de la CTE Mariel, con 70 MW, y la recuperación de 100 MW de la generación distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 170
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1033,
+            "hora": "18:30",
+            "desc": "no coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}

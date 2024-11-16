@@ -1,0 +1,82 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-09-30",
+            "dia": "Lunes",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/30/deficit-en-pico-nocturno-de-este-lunes-sobrepasa-los-1100-mw-informa-union-electrica/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2260,
+            "demanda_max":  3300,
+            "deficit": 1040,
+            "pronostico": {
+                "afectacion": 1110
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1890,
+                "demanda": 2610,
+                "totalidad": false, 
+                "deficit": 740
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 950
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 512,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",  
+                        "CTE": "Renté" 
+                    },
+                    {
+                        "nombre":"Unidad 6",  
+                        "CTE": "Mariel" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 47,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 594
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "recuperación de 100 MW en motores de la generación distribuida,  la entrada de 10 motores en la patana de Melones con 160 MW, la entrada de la Patana de Regla con 45 MW y la entrada de la unidad 6 de Mariel con 65 MW.",
+                "razon": "fuera por combustible",
+                "cantidad_mw": 370
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1341,
+            "hora": "20:20",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}

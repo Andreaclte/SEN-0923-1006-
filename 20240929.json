@@ -1,0 +1,78 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-09-29",
+            "dia": "Domingo",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/29/une-pronostica-una-tensa-jornada-con-1278-mw-de-deficit-en-pico-nocturno/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2092,
+            "demanda_max":  3300,
+            "deficit": 1208,
+            "pronostico": {
+                "afectacion": 1278
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1980,
+                "demanda": 2770,
+                "totalidad": false, 
+                "deficit": 836
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 980
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 546,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",  
+                        "CTE": "Renté" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 47,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 556
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": " entrada de la unidad 1 de Energas Varadero con 30 MW, el completamiento de la unidad 4 de esta misma central con 15 MW y la entrada de 67 MW en motores de generación distribuida",
+                "razon": "fuera por combustible",
+                "cantidad_mw": 112
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1325,
+            "hora": "21:10",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}

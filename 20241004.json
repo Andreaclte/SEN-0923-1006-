@@ -1,0 +1,94 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-10-04",
+            "dia": "Viernes",
+            "url": "http://www.cubadebate.cu/noticias/2024/10/04/la-union-electrica-pronostica-una-afectacion-de-1086-mw-para-el-horario-pico-de-este-viernes/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2224,
+            "demanda_max":  3240,
+            "deficit": 1016,
+            "pronostico": {
+                "afectacion": 1086
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1980,
+                "demanda": 2545,
+                "totalidad": false, 
+                "deficit": 583
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 800
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 368,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 6",  
+                        "CTE": "Renté" 
+                    },
+                    {
+                        "nombre":"Unidad 3",  
+                        "CTE": "Santa Cruz" 
+                    },
+                    {
+                        "nombre":"Unidad 5",  
+                        "CTE": "Nuevitas" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 39,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 401
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "recuperación de 40 MW en motores de la generación distribuida, la entrada de la unidad 5 de la CTE Nuevitas con 66 MW, la entrada de la unidad 3 de la CTE Santa Cruz con 50 MW, la entrada de 2 motores en la Patana de Melones con 34 MW y la entrada de la Patana de Regla con 54 MW.", 
+                "razon": "fuera por falta de combustible",
+                "cantidad_mw": 244
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1580,
+            "hora": "18:30",
+            "desc": "no coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}

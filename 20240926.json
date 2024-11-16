@@ -1,0 +1,78 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-09-26",
+            "dia": "Jueves",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/26/preven-afectacion-de-835-mw-durante-el-horario-pico-nocturno-de-este-jueves/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2185,
+            "demanda_max":  2950,
+            "deficit": 765,
+            "pronostico": {
+                "afectacion": 835
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1950,
+                "demanda": 2040,
+                "totalidad": false, 
+                "deficit": 125
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 350
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 537,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",  
+                        "CTE": "Renté" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 40,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 522
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de cinco motores en la Patana de Melones para 85 MW, la entrada de la Patana de Regla con 45 MW, la entrada de tres motores en el fuel de Mariel con 45 MW, el completamiento de la unidad 1 y del ciclo combinado de Energas Boca de Jaruco con 30 MW y la entrada de la unidad 4 de Energas Varadero con 30 MW.",
+                "razon": false,
+                "cantidad_mw": 235 
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1001,
+            "hora": "20:20",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": "02:00"
+        }
+    }
+}

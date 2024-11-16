@@ -1,0 +1,78 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "2024-09-28",
+            "dia": "Sabado",
+            "url": "http://www.cubadebate.cu/noticias/2024/09/28/union-electrica-pronostica-deficit-de-1221-mw-para-el-horario-pico-nocturno/"
+        },
+        "estimacion": {
+            "horario": "Pico Nocturno",
+            "disponibilidad": 2099,
+            "demanda_max":  3250,
+            "deficit": 1151,
+            "pronostico": {
+                "afectacion": 1221
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1910,
+                "demanda": 2700,
+                "totalidad": false, 
+                "deficit": 776
+
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 950
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 559,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre":"Unidad 5",  
+                        "CTE": "Renté" 
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    }
+                ],
+                "no_servicio": [
+                    {
+                        "cantidad": 45,
+                        "tipo": "Centrales de generacion distribuida",
+                        "razon": "Falta de combustible",
+                        "afectacion": 572
+                    }
+                ]
+            }
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de los motores de Mariel con 90 MW, la entrada de la patana de Mariel con 54 MW, la entrada de la unidad 1 de Energas Varadero con 30 MW y el completamiento de la unidad 4 de esta misma central con 15 MW.",
+                "razon": false,
+                "cantidad_mw": 189
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1218,
+            "hora": "20:40",
+            "desc": "coincidente con el horario pico"
+        },
+        "dia_anterior": {
+            "desc": "el servicio presentó afectaciones por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": false 
+        }
+    }
+}
