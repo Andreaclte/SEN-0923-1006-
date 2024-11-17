@@ -75,7 +75,7 @@
         },
         "pico": {
             "estimacion": {
-                "desc": "entrada de la unidad 3 de la CTE Cienfuegos con 130 MW.", 
+                "desc": "entrada de la unidad 3 de la CTE Cienfuegos", 
                 "razon": false,
                 "cantidad_mw": 130
             }
