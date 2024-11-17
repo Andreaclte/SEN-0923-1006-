@@ -74,11 +74,33 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "recuperación de 40 MW en motores de la generación distribuida, la entrada de la unidad 5 de la CTE Nuevitas con 66 MW, la entrada de la unidad 3 de la CTE Santa Cruz con 50 MW, la entrada de 2 motores en la Patana de Melones con 34 MW y la entrada de la Patana de Regla con 54 MW.", 
-                "razon": "fuera por falta de combustible",
-                "cantidad_mw": 244
-            }
+            "estimacion": [
+                {
+                    "desc": "recuperación de 40 MW en motores de la generación distribuida", 
+                    "razon": "fuera por falta de combustible",
+                    "cantidad_mw": 40
+                },
+                {
+                    "desc": "entrada de la unidad 5 de la CTE Nuevitas", 
+                    "razon": false,
+                    "cantidad_mw": 66
+                },
+                {
+                    "desc": "entrada de la unidad 3 de la CTE Santa Cruz", 
+                    "razon": false,
+                    "cantidad_mw": 50
+                },
+                {
+                    "desc": "entrada de 2 motores en la Patana de Melones", 
+                    "razon": false,
+                    "cantidad_mw": 34
+                },
+                {
+                    "desc": "entrada de la Patana de Regla", 
+                    "razon": false,
+                    "cantidad_mw": 54
+                }
+            ]
         },
         "max_afect_dia": {
             "cantidad_mw": 1580,
