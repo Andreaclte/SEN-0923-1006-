@@ -62,11 +62,28 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "recuperación de 100 MW en motores de la generación distribuida,  la entrada de 10 motores en la patana de Melones con 160 MW, la entrada de la Patana de Regla con 45 MW y la entrada de la unidad 6 de Mariel con 65 MW.",
-                "razon": "fuera por combustible",
-                "cantidad_mw": 370
-            }
+            "estimacion": [
+                {
+                    "desc": "recuperación de 100 MW en motores de la generación distribuida",
+                    "razon": "fuera por combustible",
+                    "cantidad_mw": 100
+                },
+                {
+                    "desc": "entrada de 10 motores en la patana de Melones",
+                    "razon": false,
+                    "cantidad_mw": 160
+                },
+                {
+                    "desc": "entrada de la Patana de Regla",
+                    "razon": false,
+                    "cantidad_mw": 45
+                },
+                {
+                    "desc": "entrada de la unidad 6 de Mariel",
+                    "razon": false,
+                    "cantidad_mw": 65
+                }
+            ]
         },
         "max_afect_dia": {
             "cantidad_mw": 1341,
