@@ -62,11 +62,18 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "entrada de la unidad 1 de Energas Varadero con 30 MW y el completamiento de la unidad 4 de esta misma central con 15 MW.", 
-                "razon": false,
-                "cantidad_mw": 45
-            }
+            "estimacion": [
+                {
+                    "desc": "entrada de la unidad 1 de Energas Varadero", 
+                    "razon": false,
+                    "cantidad_mw": 30
+                },
+                {
+                     "desc": "completamiento de la unidad 4 de esta misma central.", 
+                    "razon": false,
+                    "cantidad_mw": 15
+                }
+            ]
         },
         "max_afect_dia": {
             "cantidad_mw": 922,
