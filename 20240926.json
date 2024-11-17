@@ -58,11 +58,34 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "entrada de cinco motores en la Patana de Melones para 85 MW, la entrada de la Patana de Regla con 45 MW, la entrada de tres motores en el fuel de Mariel con 45 MW, el completamiento de la unidad 1 y del ciclo combinado de Energas Boca de Jaruco con 30 MW y la entrada de la unidad 4 de Energas Varadero con 30 MW.",
-                "razon": false,
-                "cantidad_mw": 235 
-            }
+            "estimacion": [
+                {
+                    "desc": "entrada de cinco motores en la Patana de Melones",
+                    "razon": false,
+                    "cantidad_mw": 85 
+                },
+                {
+                    "desc": "entrada de la Patana de Regla",
+                    "razon": false,
+                    "cantidad_mw": 45 
+                },
+                {
+                    "desc": "entrada de tres motores en el fuel de Mariel",
+                    "razon": false,
+                    "cantidad_mw": 45
+                },
+                {
+                    "desc": "completamiento de la unidad 1 y del ciclo combinado de Energas Boca de Jaruco",
+                    "razon": false,
+                    "cantidad_mw": 30
+                },
+                {
+                    "desc": "entrada de la unidad 4 de Energas Varadero.",
+                    "razon": false,
+                    "cantidad_mw": 30 
+                }
+                
+            ]
         },
         "max_afect_dia": {
             "cantidad_mw": 1001,
