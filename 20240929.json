@@ -58,11 +58,23 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": " entrada de la unidad 1 de Energas Varadero con 30 MW, el completamiento de la unidad 4 de esta misma central con 15 MW y la entrada de 67 MW en motores de generación distribuida",
-                "razon": "fuera por combustible",
-                "cantidad_mw": 112
-            }
+            "estimacion": [
+                {
+                    "desc": "entrada de la unidad 1 de Energas Varadero",
+                    "razon": "fuera por combustible",
+                    "cantidad_mw": 30
+                },
+                {
+                    "desc": "completamiento de la unidad 4 de esta misma central",
+                    "razon": "fuera por combustible",
+                    "cantidad_mw": 15
+                },
+                {
+                    "desc": " entrada de 67 MW en motores de generación distribuida",
+                    "razon": "fuera por combustible",
+                    "cantidad_mw": 67
+                }
+            ]
         },
         "max_afect_dia": {
             "cantidad_mw": 1325,
