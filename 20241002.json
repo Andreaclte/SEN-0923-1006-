@@ -66,11 +66,28 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "recuperación de 100 MW en motores de la generación distribuida, la entrada de tres motores en la Patana de Mariel, con 50 MW, la entrada de la unidad 3 de Energas Varadero, con 30 MW, y el completamiento de la unidad 4 de esta misma central, con 15 MW.", 
-                "razon": "fuera por deficit de combustible",
-                "cantidad_mw": 195
-            }
+            "estimacion": [
+                {
+                    "desc": "recuperación de 100 MW en motores de la generación distribuida", 
+                    "razon": "fuera por deficit de combustible",
+                    "cantidad_mw": 100
+                },
+                {
+                    "desc": "entrada de tres motores en la Patana de Mariel", 
+                    "razon": false,
+                    "cantidad_mw": 50
+                },
+                {
+                    "desc": "entrada de la unidad 3 de Energas Varadero", 
+                    "razon": false,
+                    "cantidad_mw": 30
+                },
+                {
+                    "desc": "completamiento de la unidad 4 de esta misma central", 
+                    "razon": false,
+                    "cantidad_mw": 15
+                }
+            ]
         },
         "max_afect_dia": {
             "cantidad_mw": 1214,
