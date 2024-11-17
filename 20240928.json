@@ -58,11 +58,28 @@
             }
         },
         "pico": {
-            "estimacion": {
-                "desc": "entrada de los motores de Mariel con 90 MW, la entrada de la patana de Mariel con 54 MW, la entrada de la unidad 1 de Energas Varadero con 30 MW y el completamiento de la unidad 4 de esta misma central con 15 MW.",
-                "razon": false,
-                "cantidad_mw": 189
-            }
+            "estimacion": [
+                {
+                    "desc": "entrada de los motores de Mariel",
+                    "razon": false,
+                    "cantidad_mw": 90
+                },
+                {
+                    "desc": "entrada de la patana de Mariel",
+                    "razon": false,
+                    "cantidad_mw": 54
+                },
+                {
+                    "desc": "entrada de la unidad 1 de Energas Varadero",
+                    "razon": false,
+                    "cantidad_mw": 30
+                },
+                {
+                    "desc": "completamiento de la unidad 4 de esta misma central",
+                    "razon": false,
+                    "cantidad_mw": 15
+                }
+            ]
         },
         "max_afect_dia": {
             "cantidad_mw": 1218,
