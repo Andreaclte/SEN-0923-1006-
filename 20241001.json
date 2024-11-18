@@ -54,8 +54,11 @@
                         "nombre": "Unidad 2",
                         "CTE": "Santa Cruz"
                     }
-                ],
-                "no_servicio": [
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
                     {
                         "cantidad": 47,
                         "tipo": "Centrales de generacion distribuida",
@@ -63,7 +66,6 @@
                         "afectacion": 360
                     }
                 ]
-            }
         },
         "pico": {
             "estimacion": [
