@@ -62,8 +62,11 @@
                         "nombre": "Unidad 5",
                         "CTE": "Renté"
                     }
-                ],
-                "no_servicio": [
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
                     {
                         "cantidad": 39,
                         "tipo": "Centrales de generacion distribuida",
@@ -71,7 +74,6 @@
                         "afectacion": 401
                     }
                 ]
-            }
         },
         "pico": {
             "estimacion": [
